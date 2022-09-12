@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1, h2, h3{
+    text-transform: capitalize;
+}
+dt{
+    font-weight: bold;
+}
+dl{
+    margin-bottom: 1rem;
+}
+img{
+    border: 2px solid;
+    width: 800px;
+}
+h3{
+    margin-left: 20px;
+}
+
+
+/*********** class **************/
+.dark-thema{
+    background-color: #323232;
+}
+.bolum{
+    border: 5px solid;
+    border-color: #323232;
+}
