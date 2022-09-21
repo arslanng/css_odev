@@ -1,4 +1,4 @@
-body{
+menu{
     background-color: black;
     color: aliceblue;
     font-size: 125%;
@@ -27,7 +27,7 @@ h3{
 .dark-thema{
     background-color: #323232;
 }
-.bolum{
+/* .bolum{
     border: 5px solid;
     border-color: #323232;
-}
+} */

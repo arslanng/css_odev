@@ -5,26 +5,40 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hakkımda | Işın Kılıcı</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <style>
         body{
-            text-align:center;
+            background-color: #E9ECEF;
         }
+        .container-fluid{
+            text-align: center;
+        }
+        
+    </style>
     </style>
 </head>
 <body>
-    <!-- nav start -->
-    <header>
-        <h1 id="ilk-baslik">Benim Hakkımda</h1>
-        <ul style="list-style-position: inside">
-            <!-- <li><a href="#ilk-baslik">En Başa Dön</a></li> -->
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li><a href="contect-us.html">İletişim</a></li>
-        </ul>
-    </header>
-    <article class="dark-thema">
-        <h2>Murat GÖKDUMAN</h2>
-        <p>Bu sene başladığım Front-End Web Development eğitiminden büyük bir keyif alıyorum. <br> 33 Yaşındayım. <br> 8 yıldır hekimim. <br> Yeni şeyler öğrenmeyi severim. <br> <hr> </p>
-    </article>
-        <img src="https://static.vecteezy.com/system/resources/previews/006/244/885/original/black-raven-carries-the-key-in-the-beak-vector.jpg" alt="" style="width: 250px;">
+    <div class="container-fluid">
+
+        <!-- nav start -->
+        <header class="row bg-dark text-light">
+            <h1 id="ilk-baslik">Benim Hakkımda</h1>
+            <ul style="list-style: none;">
+                <!-- <li><a href="#ilk-baslik">En Başa Dön</a></li> -->
+                <li><a style="text-decoration: none;" href="index.html"><button style="width: 100px;" class="btn btn-light btn-outline-dark">Ana Sayfa</button></a></li>
+                <li><a href="contect-us.html"><button style="width: 100px;" class="btn btn-light btn-outline-dark">İletişim</button></a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="container">
+
+        <article class="row">
+            <h2 class="col-xl-5 col-lg-4 col-md-5 text-center m-auto">Murat GÖKDUMAN</h2>
+            <!-- p-5 fs-1 mt-5 -->
+            <p class="col-xl-5 col-lg-5 col-md-3 p-2 m-auto">Bu sene başladığım Front-End Web Development eğitiminden büyük bir keyif alıyorum. <br> 33 Yaşındayım. <br> 8 yıldır hekimim. <br> Yeni şeyler öğrenmeyi severim. <br> </p>
+            <img class="col-xl-2 col-lg-3 col-md-4 img-fluid" src="https://static.vecteezy.com/system/resources/previews/006/244/885/original/black-raven-carries-the-key-in-the-beak-vector.jpg" alt="">
+        </article>
+        <hr>
+    </div>
 </body>
